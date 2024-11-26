@@ -37,7 +37,7 @@ TimeSeriesForecastingProject/
  * **Moving Average:** Forecast based on a 3-month and 6-month moving average.
  * **Exponential Smoothing:** Trend-adjusted smoothing to predict future production.
  * **Facebook Prophet:** Advanced model accounting for trends and seasonality.
-
+    
 ## Results
 1. **Correlation Analysis:**
    - Most Similar Pair of Goods: Peas (fresh) and Potatoes (Irish) with a correlation of 0.74
@@ -48,3 +48,44 @@ TimeSeriesForecastingProject/
      - Exponential Smoothing Forecast for Next 6 Months: [2016-01-01  368.303280, 2016-02-01  368.803712, 2016-03-01  369.304144, 2016-04-01  369.804576, 2016-05-01  370.305008,  2016-06-01  370.805440]
      - Prophet Forecast for Next 6 Months: [96  2015-12-31  388.284137, 97  2016-01-31  495.980508, 98  2016-02-29  400.669893, 99  2016-03-31  434.920036, 100 2016-04-30  431.211122, 101 2016-05-31  417.236700]
    - Visualized with interactive Plotly graphs and static Seaborn plots.
+
+## Requirements
+- Python 3.8+, Google Colab
+- Libraries:
+  - `pandas`
+  - `matplotlib`
+  - `seaborn`
+  - `statsmodels`
+  - `prophet`
+  - `plotly`
+
+## How to Run
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Jinal1996/TimeSeriesForecastingProject.git
+   cd TimeSeriesForecastingProject
+2. **Install Dependencies:**
+   pip install -r requirements.txt
+   * **Dependencies:**
+      * pandas: Data manipulation and analysis.
+      * matplotlib: Plotting static visualizations like line charts and decomposition.
+      * seaborn:	Creating heatmaps and styled plots for correlation analysis.
+      * plotly: Interactive visualizations with range sliders and custom backgrounds.
+      * statsmodels:	Statistical models for time series analysis (e.g., Exponential Smoothing, decomposition).
+      * prophet:	Advanced forecasting for trends and seasonality (formerly fbprophet).
+3. **Run the Analysis:**
+   * Jupyter Notebook: jupyter notebook forecasting_notebook.ipynb
+   * Python Script: python scripts/forecasting_script.py
+
+## Visualizations
+* Correlation Heatmap: Highlights relationships between goods.
+* Forecasting Plots: Moving average, exponential smoothing, and Prophet forecasts visualized with Pyplot, Plotly with range slider and Seaborne.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For questions or contributions, feel free to reach out:
+* Name: Jinal Patel
+* Email: jinalpat06@gmail.com
+* GitHub: Jinal1996
