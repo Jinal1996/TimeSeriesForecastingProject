@@ -65,17 +65,18 @@ TimeSeriesForecastingProject/
    git clone https://github.com/Jinal1996/TimeSeriesForecastingProject.git
    cd TimeSeriesForecastingProject
 2. **Install Dependencies:**
-   pip install -r requirements.txt
-   * **Dependencies:**
-      * pandas: Data manipulation and analysis.
-      * matplotlib: Plotting static visualizations like line charts and decomposition.
-      * seaborn:	Creating heatmaps and styled plots for correlation analysis.
-      * plotly: Interactive visualizations with range sliders and custom backgrounds.
-      * statsmodels:	Statistical models for time series analysis (e.g., Exponential Smoothing, decomposition).
-      * prophet:	Advanced forecasting for trends and seasonality (formerly fbprophet).
+    - pip install -r requirements.txt
+    - If you're using Google Colab: !pip install pandas matplotlib seaborn statsmodels plotly prophet
+    -  **Dependencies:**
+        * pandas: Data manipulation and analysis.
+        * matplotlib: Plotting static visualizations like line charts and decomposition.
+        * seaborn:	Creating heatmaps and styled plots for correlation analysis.
+        * plotly: Interactive visualizations with range sliders and custom backgrounds.
+        * statsmodels:	Statistical models for time series analysis (e.g., Exponential Smoothing, decomposition).
+        * prophet:	Advanced forecasting for trends and seasonality (formerly fbprophet).
 3. **Run the Analysis:**
-   * Jupyter Notebook: jupyter notebook forecasting_notebook.ipynb
-   * Python Script: python scripts/forecasting_script.py
+   * Jupyter Notebook: jupyter notebook Jinal_Fall 2024_TimeSeriesForecastingProject.ipynb
+   * Python Script: python scripts/Jinal_Fall 2024_TimeSeriesForecastingProject.py
 
 ## Visualizations
 * Correlation Heatmap: Highlights relationships between goods.
