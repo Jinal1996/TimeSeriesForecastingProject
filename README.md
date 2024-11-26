@@ -13,7 +13,20 @@ This project analyzes and forecasts the production patterns of various goods usi
    - Facebook Prophet
 
 ## Repository Structure
-TimeSeriesForecastingProject/ ├── datasets/ # Raw data files │ ├── Tomatoes.csv │ ├── Sorghum.csv │ └── ... ├── scripts/ # Python code files │ ├── forecasting_script.py │ └── forecasting_notebook.ipynb ├── visualizations/ # Static images and outputs │ ├── heatmap_correlation.png │ ├── moving_avg_forecast.png │ └── ... ├── README.md # Documentation └── LICENSE # License file (optional)
+TimeSeriesForecastingProject/
+├── datasets/
+│   ├── Tomatoes.csv
+│   ├── Sorghum.csv
+│   └── ...
+├── scripts/
+│   ├── forecasting_script.py
+│   └── forecasting_notebook.ipynb
+├── visualizations/
+│   ├── heatmap_correlation.png
+│   ├── moving_avg_forecast.png
+│   └── ...
+├── README.md
+└── LICENSE (optional)
 
 ## Methods Used
 ### 1. Data Preprocessing
